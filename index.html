@@ -1,36 +1,45 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <title>CSS Positioning</title>
-  <link rel="stylesheet" type="text/css" href="./assets/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini-Project</title>
+  <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body>
-  <header>
-    <h1>CSS Positioning</h1>
-  </header>
-
-  <main>
-    <section>
-      <h2>Square 1: Relative Position</h2>
-      <div class="container">
-        <img src="./assets/images/image-1.png" alt="box with number 1" />
-        <img id="relative-box-2" src="./assets/images/image-2.png" alt="box with number 2" />
-        <img src="./assets/images/image-3.png" alt="box with number 3" />
-      </div>
+  <div class="container">
+    <section class="header">
+      <p class="p">Github</p>
+      <p class="p">Portfolio</p>
+      <p class="p">Contact</p>
     </section>
 
-    <section>
-      <h2>Square 2: Absolute Position</h2>
-      <div class="container absolute-container">
-        <img src="./assets/images/image-1.png" alt="box with number 1" />
-        <img id="absolute-box-2" src="./assets/images/image-2.png" alt="box with number 2" />
-        <img src="./assets/images/image-3.png" alt="box with number 3" />
-      </div>
+    <section class="img">
+      <h1>My New Website</h1>
+      <img src="./assets/images/image-1.png" alt="A box reading coming soon" />
+      <p>This is the information under the picture</p>
     </section>
-  </main>
+
+    <section class="contact">
+      <h3>Contact Me</h3>
+      <div class="name">
+        <lable for="Name tag">Name:</lable>
+        <input type="text" id="Name tag"><br>
+        <lable for="Email">Email:</lable>
+        <input type="text" id="Email"><br>
+        <button type="button">Send</button>
+      </div>
+
+    </section>
+
+    <section class="footer">
+      <footer>
+        <p>2024 My New Website Productions</p>
+      </footer>
+    </section>
+  </div>
 </body>
 
 </html>
